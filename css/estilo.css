@@ -1,0 +1,386 @@
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body {
+            background: linear-gradient(0deg, rgb(30, 106, 163) 0%, rgba(0,0,0,1) 190%) no-repeat;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            background-color: rgba(32, 33, 34, 0.678);
+            height: 40px;
+            margin-top: 40px;
+            box-shadow: 0px 0px 0.9px white;
+        }
+
+        header nav {
+            margin-right: 10%;
+        } 
+
+        header a {
+            font-family: 'Righteous', cursive;
+            margin-right: 50px;
+            padding: 12px 30px;
+            color: rgb(100, 100, 100);
+        }
+
+        header a:hover{
+            background-color: rgba(38, 74, 89, 0.255);
+            color: rgb(0, 189, 0);
+        }
+
+        main .main {
+            font-family: 'Sarala', sans-serif;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            color: rgb(170, 170, 170);
+        }
+
+        main .main #minidev {
+            font-size: 50pt;
+        }
+
+        main .main #logo {
+            height: 150px;
+            margin: 20px;
+        }
+
+        main #img-info01{
+            height: 400px;
+            margin-left: 5px;
+        }
+
+        main .main-glob {
+            background-color: rgba(0, 0, 0, 0.015);
+            border-left: 5px solid rgb(145, 145, 145);
+        }
+
+        main .main-welcome {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin: 50px;
+            margin-bottom: 150px;
+        }
+
+        main .welcome-text h1{
+            margin: 30px 0;
+        }
+
+        main .welcome-text {
+            font-family: 'Sarala', sans-serif;
+            color: rgb(170, 170, 170);
+        }
+
+        main .welcome-text a {
+            color: rgb(61, 4, 4);
+            background-color: rgba(48, 48, 48, 0.603);
+            padding: -10px;
+            border-radius: 5px;
+        }
+
+        main .main-hello {
+            font-family: 'Sarala', sans-serif;
+            color: rgb(170, 170, 170);
+            width: 75%;
+            margin: auto;
+            text-align: center;
+            /* background-color: rgba(2, 2, 2, 0.671); */
+            /* border-radius: 10px; */
+            /* box-shadow: 5px 5px 15px black; */
+        }
+
+        main .main-hello #pri {
+            font-size: 20pt;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+
+        main .main-hello .hello-action {
+            padding: 20px;
+        }
+
+        main .main-hello .hello-action .hello-action-buttons {
+            padding: 10px;
+        }
+
+        main .main-hello .hello-action .but-son {
+            font-family: 'Sarala', sans-serif;
+            background-color: black;
+            border: 1px solid rgb(1, 119, 1);
+            color: rgb(1, 119, 1);
+            font-weight: 800;
+            padding: 7px;
+            cursor: pointer;
+        }
+
+        main .main-hello .hello-action .but-son:hover {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        main .main-hello .hello-action #element {
+            background-color: black;
+            color: rgb(1, 119, 1);
+            outline: none;
+            border: 1px solid rgb(1, 119, 1);
+        }
+
+        main .main-hello .hello-action p {
+            margin: 10px;
+        }
+
+        main .linguage {
+            text-align: center;
+        }
+
+        main .linguage #linguage-top p{
+            font-size: 25pt;
+            color: rgb(223, 223, 223);
+            font-family: 'Source Code Pro', monospace;
+            font-weight: bold;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.774);
+            margin: 20px 0;
+        }
+
+        main .linguage .html {
+            margin-top: 20px;
+            display: flex;
+            background-color: rgb(179, 77, 0);
+            justify-content: center;
+            padding: 10% 0;
+            box-shadow: 0 0 8px;
+        }
+
+        main .linguage .css {
+            display: flex;
+            background-color: rgb(27, 100, 163);
+            justify-content: center;
+            padding: 10% 0;
+            box-shadow: 0 0 8px;
+        }
+
+        main .linguage .js {
+            display: flex;
+            background-color: rgb(155, 125, 25);
+            justify-content: center;
+            padding: 10% 0;
+            margin-bottom: 15%;
+            box-shadow: 0 0 8px;
+        }
+
+        main .linguage .txt-titulo {
+            font-size: 25pt;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        main .linguage .txt{
+            font-family: 'Source Code Pro', monospace;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 70px;
+        }
+
+        main .linguage .txt a{
+            background-color: white;
+            color: black;
+            padding: 5px 20px;
+            margin: 10px auto;
+            border: none;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        main .linguage .html a:hover {
+            cursor: pointer;
+            font-size: 11pt;
+            font-weight: bold;
+            background-color: rgb(218, 138, 95);
+            transition: 0.3s;
+        }
+
+        main .linguage .css a:hover {
+            cursor: pointer;
+            font-size: 11pt;
+            font-weight: bold;
+            background-color: rgb(128, 174, 214);
+            transition: 0.3s;
+        }
+
+        main .linguage .js a:hover {
+            cursor: pointer;
+            font-size: 11pt;
+            font-weight: bold;
+            background-color: rgb(218, 188, 90);
+            transition: 0.3s;
+        }
+
+        section .info-discord {
+            margin-top: 15%;
+            background-color: rgba(0, 0, 0, 0.419);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.281);
+            display: flex;
+            align-items: center;
+            border-left: 5px solid;
+        }
+
+        section .info-discord img {
+            height: 100px;
+            margin-left: 30px;
+        }
+
+        section .info-discord .info-by-discord {
+            font-size: 10pt;
+            font-family: 'Sarala', sans-serif;
+            color: rgb(170, 170, 170);
+        }
+
+        section .mais {
+            background-color: burlywood;
+        }
+
+        footer {
+            margin: 3% 0;
+            text-align: center;
+            font-size: 10pt;
+            font-family: 'Sarala', sans-serif;
+            color: rgb(170, 170, 170);
+        }
+
+        
+
+        /* functions */
+        #ja, #ainda_nao {
+            display: none;
+        }
+
+        #alet,#consu {
+            display: none;
+        }
+
+        @media screen and (max-width: 720px){
+            footer a {
+                font-size: 13pt;
+            }
+            main .linguage .txt a {
+                padding: 0;
+                background: none;
+                color: rgb(221, 221, 221);
+                text-decoration: underline;
+            }
+            main .main-hello .hello-action .but-son:hover{
+                border: 1px solid black;
+                color: black;
+            }
+            #but-t {
+                display: none;
+            }
+            textarea {
+                width: 100%;
+            }
+            main .main-hello {
+                background: none;
+                width: 100%;
+                border-radius: 0;
+                box-shadow: none;
+            }
+            *{
+                font-size: 20pt;
+            }
+            section .info-discord {
+                height: 300px;
+            }
+
+            section .info-discord .info-by-discord{
+                margin-left: 50px;
+            }
+            main .main-welcome{
+                font-size: 9pt;
+            }
+            header {
+                background: none;
+                margin-top: 0;
+            }
+            header nav {
+                margin-top:190px ;
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+            }
+            header a {
+                display: flex;
+                justify-content: center;
+                margin: 2px 0;
+                background-color: rgba(0, 0, 0, 0.268);
+                border: none;
+                width: 99%;
+                box-shadow: none;
+            }
+            main .main-glob .main-welcome #img-info01 {
+                height: 200px;
+                margin-left: -40px;
+            }
+            main {
+                margin-top: 190px;
+            }
+            main .main #logo {
+                height: 90px;
+            }
+            main .main #minidev {
+                font-size: 30pt;
+            }
+            main .linguage .html,.css,.js {
+                height: 100px;
+                background: none;
+                box-shadow: none;
+                color: rgb(221, 221, 221);
+            }
+            main .linguage .css {
+                height: 100px;
+                background: none;
+                box-shadow: none;
+            }
+            main .linguage .js {
+                height: 100px;
+                background: none;
+                box-shadow: none;
+            }
+            main .linguage .html .lag-img img{
+                height: 120px;
+                position: relative;
+                right: 30px;
+                top: 30%;
+            }
+            main .linguage .css .lag-img img{
+                height: 120px;
+                position: relative;
+                top: 30%;
+                right: 35px;
+            }
+            main .linguage .js .lag-img img{
+                height: 110px;
+                position: relative;
+                top: 30%;
+                right: 35px;
+            }
+            main .linguage #linguage-top p {
+                font-size: 20pt;
+            }
+            section .info-discord img {
+                display: none;
+            }
+            main .main-glob .main-welcome img {
+                display: none;
+            }
+        }

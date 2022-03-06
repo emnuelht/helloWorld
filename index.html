@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site especialmente para você amigo(a) iniciante nesse rumo da tecnologia!">
+    <link rel="shortcup icon" href="./img/esqueleto.png" type="imagem/x-icon">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>MiniDev - Home</title>
+</head>
+<body>
+        <header>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JS</a>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="main">
+                <img id="logo" src="./img/cabeça.png" alt="logo">
+                <p id="minidev">MiniDev</p>
+            </div>
+
+            <div class="main-glob">
+                <div class="main-welcome">
+                    <img id="img-info01" src="./img/aperti.png" alt="">
+
+                <div class="welcome-text">
+                <h1>Olá seja bem vindo!</h1>
+                <p>Bem-vindo ao meu site! Criado com o intuito de aprender mais, e também colocar algumas ideias e opniões
+                    sobre as tecnologias. Caso ache erros ou na digitação ou no site em si, ele
+                    ainda está sendo desenvolvido por uma só pessoa. Aproveitem o site e o resto é com vocês!</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="linguage">
+                <div id="linguage-top">
+                    <p>Eae pessoal vocês já conhecem essas Linguagens?</p>
+                </div>
+                <div class="linguage-box">
+                    <div class="html">
+                        <div id="html-text" class="txt">
+                            <p class="txt-titulo"><strong>Html</strong></p>
+                            <p>Linguagem para criar web-sites</p>
+                            <a href="#">Saber mais</a>
+                        </div>
+                        <div id="html-img" class="lag-img">
+                            <img src="./img/logo-html.png" alt="logo do html">
+                        </div>
+                    </div>
+    
+                    <div class="css">
+                        <div id="css-text" class="txt">
+                            <p class="txt-titulo"><strong>CSS</strong></p>
+                            <p>Linguagem de estilos de uma página web</p>
+                            <a href="#">Saber mais</a>
+                        </div>
+    
+                        <div id="css-img" class="lag-img">
+                            <img src="./img/logo-css.png" alt="logo do css">
+                        </div>
+                    </div>
+    
+                    <div class="js">
+                        <div id="js-text" class="txt">
+                            <p class="txt-titulo"><strong>JavaScript</strong></p>
+                            <p>Linguagem de programação para páginas web</p>
+                            <a href="#">Saber mais</a>
+                        </div>
+    
+                        <div id="js-img" class="lag-img">
+                            <img src="./img/logo-js.png" alt="logo do javaScript">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-hello">
+                <p id="linha"></p>
+                <p id="pri"><strong>Eae devs... vocês já ouviram falar da maldição do "Hello world" ?</strong></p>
+                <p>
+                    Reza lenda que o programador que não fizer seu primeiro Hello World escrever na tela, não consiguirá ser um bom profissional
+                    <br> na area da programação, pode ser até bobajem mais ce vai arriscar ? pois eu não, eu já fiz o meu aparecer na tela, <br>
+                    e você já ?
+                </p>
+    
+                <div class="hello-action">
+                    <div class="hello-action-buttons">
+                        <button class="but-son" onclick="aparecerJ()" ondblclick="sumirJ()">Eu já</button>
+                        <button class="but-son" onclick="aparecerN()" ondblclick="sumirN()">Eu ainda não :(</button>
+                    </div>
+    
+                    <p id="ja">
+                        Uffaa que bom que você já se livrou
+                    </p>
+                    <div id="ainda_nao">
+                        <p>Que tal se livra dessa maldição agora!<br>Digite "Hello world!" ou "Olá mundo!" para se livrar
+                            da maldição.</p>
+    
+                        <textarea id="element" cols="50" rows="5"></textarea><br>
+    
+                        <button class="but-son" onclick="mostra()">alert()</button> <button id="but-t" class="but-son" onclick="con()">console.log()</button>
+    
+                        <div id="mostre">
+                            <p id="alet">AAAEEEE você se livrou da maldição</p>
+                            <p id="consu">AAAEEEE você se livrou da maldição! <br>
+                            caso não saiba onde fica o console <a target="_blank" style="color: brown;" href="./console.html">click aqui</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <section>
+            <div class="info-discord">
+               <img src="./img/cabeça.png" alt="">
+
+               <div class="info-by-discord">
+                <h2>Eae galera!</h2>
+                <p>
+                    Criei uma comunidade onde nós podemos trocar ideias e aprender mais juntos!
+                    <br>Caso queira entrar, utilizamos o discord, <a href="#" style="color: brown;" onclick="alert('Em manutenção!')">click aqui</a> para participar.
+                </p>
+               </div>
+            </div>
+        </section>
+    
+        <footer>
+            <h3>Lembre-se</h3>
+            Somos o básico, mais do básico
+            se encontra o avançado :)
+            <p>
+                <a target="_blank" style="color: rgb(121, 23, 23); font-weight: bold;" href="https://www.instagram.com/emnuelht/?hl=pt-br">@emnuelht</a>
+            </p>
+        </footer>
+<script src="cod.js"></script>
+</body>
+</html>
